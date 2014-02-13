@@ -41,7 +41,7 @@ def how_old_avg(seconds)
 end
 
 def how_old_simple(seconds)
-	return seconds / (60 * 60 *24 * 365.0)
+	return seconds / (60 * 60 * 24 * 365.0)
 end
 
 age_in_seconds = 970000000
