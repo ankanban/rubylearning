@@ -47,7 +47,7 @@ def how_old_simple(seconds)
 	return seconds / (60 * 60 * 24 * 365.0)
 end
 
-age_in_seconds = 970000000
+age_in_seconds = 979000000
 puts format("%.10f", how_old(age_in_seconds))
 puts format("%.10f", how_old_avg(age_in_seconds))
 puts format("%.10f", how_old_simple(age_in_seconds))
