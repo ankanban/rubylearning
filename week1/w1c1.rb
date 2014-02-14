@@ -1,12 +1,5 @@
 def is_leap(year)
-	if (year % 400) == 0
-		return true
-	elsif (year % 100) == 0
-		return false
-	elsif (year % 4) == 0
-		return true
-	end
-	return false
+	return ((year % 400) == 0) ? true : ((year % 100) == 0) ? false : ((year % 4) == 0) ? true : false
 end
 
 def how_old(seconds)
